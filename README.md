@@ -54,7 +54,7 @@ C. COPIER DEJA UN PROJET EXISTANT (NOTRE CAS)
    
      ** EXEMPLE TERMINAL **
      cd downloads
-     git clone https://github.com/utilisateur/projet.git (pour télécharger le dépôt localement)
+     git clone https://github.com/easynoneybuckets/TRAVAIL2.git (pour télécharger le dépôt localement)
      git push (pour envoyer le changement sur github)
 
 
