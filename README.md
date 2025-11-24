@@ -2,19 +2,20 @@ DEPOT TEST SUR L'UTILISATION DE GIT/GITHUB
 
 1. TELECHARGER GIT:
 
-WINDOWS: https://git-scm.com/downloads
-MAC: - Git est déjà installé. 
-     - Si vous faites face à une erreur de licence; éxécutez cette commande sur votre terminal: sudo xcodebuild -license
+          WINDOWS: https://git-scm.com/downloads. 
+          MAC: - Git est déjà installé. 
+               - Si vous faites face à une erreur de licence; éxécutez cette commande sur votre terminal: sudo xcodebuild -license
 
 2. APRES INSTALLATION, Ouvrez votre terminal et testez la version:
-git --version
-
-3. CONFIGURATION DU PROFIL/BASE GIT (Ne se fait qu'une seule fois):
    
-git config --global user.name "Ton Nom"
-git config --global user.email "tonemail@example.com"
+               git --version
 
-4. CREATION D'UN PROJET
+4. CONFIGURATION DU PROFIL/BASE GIT (Ne se fait qu'une seule fois):
+   
+               git config --global user.name "Ton Nom"
+               git config --global user.email "tonemail@example.com"
+
+5. CREATION D'UN PROJET
    
 A. SI TU AS DEJA UN DOSSIER+FICHIER (GIT)
    
@@ -38,6 +39,14 @@ B. CREER LE DEPOT SUR GITHUB
         Public ou Private selon ton choix
         NE PAS cocher README, .gitignore ou License (si on les a déjà, si vous ne les avez pas cochez OUI !!)
         Clique Create repository.
+
+        GitHub va t’afficher une page avec des instructions.
+
+     -Pour ajouter votre projet local sur git, excutez cette commande en entier:
+
+          git remote add origin https://github.com/easynoneybuckets/TRAVAIL2.git
+          git branch -M main
+          git push -u origin main
 
       GitHub va t’afficher une page avec des instructions.
 
